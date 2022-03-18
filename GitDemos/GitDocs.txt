@@ -41,3 +41,10 @@ Rollback (If changes aren't pushed into the server(github)) -> Not Proper way to
 Revert Commit
 -------------------------------
 1. git revert <commit> (git revert e02d2478638ae4be9eac23bc2b9b3f5b8a9f2fba)
+
+Work with Branch
+-------------------------------
+1. git branch -v (Show all branch)
+2. git branch <Branch_name>
+3. git checkout <Branch_name> (Add required changes)
+4. git checkout main
