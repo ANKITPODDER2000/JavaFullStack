@@ -48,3 +48,4 @@ Work with Branch
 2. git branch <Branch_name>
 3. git checkout <Branch_name> (Add required changes)
 4. git checkout main
+5. git merge <Branch>
