@@ -37,3 +37,7 @@ Rollback (If changes aren't pushed into the server(github)) -> Not Proper way to
 2. git reset --soft <commit> (Ex: git reset --soft c04a4d3b0e443190a85cffdee7e26d84b9e96f02)
 3. git status
 4. git log
+
+Revert Commit
+-------------------------------
+1. git revert <commit> (git revert e02d2478638ae4be9eac23bc2b9b3f5b8a9f2fba)
