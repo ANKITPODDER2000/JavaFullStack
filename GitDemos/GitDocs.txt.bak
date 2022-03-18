@@ -15,13 +15,13 @@ Initializing a Repo
 To Check repo details:
 1. git remote -v
 
-To connect GitHub server using SSH mechanism
+To connect github server using SSH mechanism
 -------------------------------
 To generate ssh:
-	1. ssh-keygen -t rsa -C <emailID> (RSA is a method of creating SSH Public & Private Key Method)
-	2. Enter a passphrase, and remember it for future use.
+	1. ssh-keygen -t rsa -C <emailID> (rsa is a method of creating SSH Public & Private Key Method)
+	2. Enter passphrase, and remember it for future use.
 	3. Now open the location and copy the SSH key.
-	4. Open GitHub account and go to settings > SSH and GPG keys > Paste the SSH Key
+	4. Open github account and go to settings > SSH and GPG keys > Paste the SSH Key
 	5. To check SSH connection use this command : ssh -T git@github.com
 
 Cloning a repo,
@@ -31,7 +31,7 @@ Cloning a repo,
 3. git commit -m "<Commit>"
 4. git push -u origin main
 
-Rollback (If changes aren't pushed into the server(Github)) -> Not Proper way to do.
+Rollback (If changes aren't pushed into the server(github)) -> Not Proper way to do.
 -------------------------------
 1. git log --pretty=oneline (To check all comments)
 2. git reset --soft <commit> (Ex: git reset --soft c04a4d3b0e443190a85cffdee7e26d84b9e96f02)
