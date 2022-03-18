@@ -1,0 +1,8 @@
+Config Git
+-------------------------------
+1. git config --global user.name "<UserName>"
+2. git config --global user.email "<EmailID>"
+git init
+
+To generate ssh:
+	ssh-keygen -t rsa -C emailID
